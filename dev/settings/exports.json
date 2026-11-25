@@ -1,0 +1,3 @@
+{
+    "// how to use": "SETTINGS. file = where the ABI goes, export = name to import, only = functions/events the app uses (leave out for the full ABI). Addresses come from src/generated/addresses.json by contract name, never from .env. This site has no contract of its own, so the list is empty."
+}

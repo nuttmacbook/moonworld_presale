@@ -1,0 +1,17 @@
+{
+    "name": "dev-tools",
+    "private": true,
+    "type": "module",
+    "description": "Contracts, compiler, local and live chain scripts, and tests. Never part of the production build.",
+    "scripts": {
+        "dev": "node engine/start.mjs",
+        "compile": "node engine/compile.mjs",
+        "compile:watch": "node engine/compile.mjs --watch",
+        "test": "node engine/test-runner.mjs",
+        "test:only": "node engine/test-runner.mjs --only",
+        "deploy:live": "node engine/deploy-live.mjs",
+        "verify": "node engine/verify.mjs"
+    },
+    "devDependencies": { "ethers": "6.17.0", "hardhat": "3.20.0", "solc": "0.8.37" },
+    "overrides": { "tmp": "0.2.7" }
+}

@@ -1,0 +1,6 @@
+{
+    "// what this is": "SETTINGS. Chains the deploy and verify scripts know, by chain id. name = key in src/generated/addresses.json and the value of VITE_CHAIN.",
+    "56":    { "name": "bsc",        "explorer": "https://bscscan.com",         "verifyApi": "https://api.etherscan.io/v2/api" },
+    "97":    { "name": "bscTestnet", "explorer": "https://testnet.bscscan.com", "verifyApi": "https://api.etherscan.io/v2/api" },
+    "31337": { "name": "hardhat",    "explorer": "",                            "verifyApi": "" }
+}

@@ -1,0 +1,7 @@
+{
+    "// what this is": "SETTINGS. Test tokens the local chain (npm run dev, npm test) deploys. Order matters for this site: the first stands in for MWLD (VITE_TOKEN_ADDRESS), the second for the presale's payment token (VITE_PAYMENT_TOKEN). Anyone can mint them from the test panel.",
+    "tokens": [
+        { "symbol": "MWLD", "name": "Moon World (test)", "decimals": 18, "replaces": [] },
+        { "symbol": "USDT", "name": "Test USDT", "decimals": 18, "replaces": [] }
+    ]
+}
